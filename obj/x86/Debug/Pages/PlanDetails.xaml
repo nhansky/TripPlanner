@@ -34,17 +34,17 @@
 
 
             <StackPanel>
-                <ListBox x:ConnectionId='4' x:Name="dayListBox"                                 Background="White"                                            >
-                    <ListBox.ItemTemplate>
+                <ListView x:ConnectionId='4' x:Name="dayListView"                                 Background="White"                                   IsItemClickEnabled="True" >
+                    <ListView.ItemTemplate>
                         <DataTemplate                       >
                             <StackPanel x:ConnectionId='5' MinWidth="400" Background="Azure">
                                 <TextBlock x:ConnectionId='6'                       FontSize="25"/>
                                 <TextBlock x:ConnectionId='7'                               />
                             </StackPanel>
                         </DataTemplate>
-                    </ListBox.ItemTemplate>
+                    </ListView.ItemTemplate>
                     
-                </ListBox>
+                </ListView>
          </StackPanel>
         </StackPanel>
 

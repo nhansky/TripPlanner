@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Projects\Master\TripPlanner-master\TripPlanner\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-29T04:34:27.662</Modified>
+      <Modified>2016-01-29T09:05:25.961</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\Master\TripPlanner-master\TripPlanner\bin\x86\Debug\TripPlanner.exe">
       <PackagePath>entrypoint\TripPlanner.exe</PackagePath>
-      <Modified>2016-01-29T04:34:26.992</Modified>
+      <Modified>2016-01-29T09:05:25.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -510,7 +510,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Master\TripPlanner-master\TripPlanner\bin\x86\Debug\TripPlanner.xr.xml">
       <PackagePath>TripPlanner.xr.xml</PackagePath>
-      <Modified>2016-01-29T04:21:02.949</Modified>
+      <Modified>2016-01-29T08:43:44.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -518,11 +518,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Master\TripPlanner-master\TripPlanner\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-29T04:24:04.687</Modified>
+      <Modified>2016-01-29T09:05:25.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Master\TripPlanner-master\TripPlanner\bin\x86\Debug\Core\TripPlanner.exe">
       <PackagePath>TripPlanner.exe</PackagePath>
-      <Modified>2016-01-29T04:34:27.659</Modified>
+      <Modified>2016-01-29T09:05:25.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

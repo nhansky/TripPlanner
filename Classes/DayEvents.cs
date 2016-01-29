@@ -12,12 +12,23 @@ namespace TripPlanner.Classes
         [PrimaryKey, AutoIncrement]
         public int DayEventID { get; set; }
         public string Activities { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         public string Locations { get; set; }
         public string Notes { get; set; }
         public Guid PlanID_FK { get; set; }
+        public Guid DayID_FK { get; set; }
 
         public DayEvents() { }
+
+        public DayEvents(Guid planId, Guid dayId, TimeSpan startTime, TimeSpan endTime, string activities, string location)
+        {
+            PlanID_FK = planId;
+            DayID_FK = dayId;
+            StartTime = startTime;
+            EndTime = endTime;
+            Activities = activities;
+            Locations = location;
+        }
     }
 }

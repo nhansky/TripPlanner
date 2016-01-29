@@ -69,7 +69,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
                 <TextBlock Text="Activity" Margin="5" FontSize="20"/>
-                <RichEditBox x:Name="activity" Margin="42,0,0,0" Width="200" Height="250"/>
+                <RichEditBox x:Name="activityContent" Margin="42,0,0,0" Width="200" Height="250"/>
             </StackPanel>
         </StackPanel>
     </Grid>

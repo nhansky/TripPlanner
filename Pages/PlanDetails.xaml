@@ -34,17 +34,17 @@
 
 
             <StackPanel>
-                <ListBox x:Name="dayListBox" ItemsSource="{x:Bind DaysList}" Background="White" SelectionChanged="ListBox_SelectionChanged">
-                    <ListBox.ItemTemplate>
+                <ListView x:Name="dayListView" ItemsSource="{x:Bind DaysList}" Background="White" ItemClick="dayListView_ItemClick" IsItemClickEnabled="True" >
+                    <ListView.ItemTemplate>
                         <DataTemplate x:DataType="data:Days">
                             <StackPanel MinWidth="400" Background="Azure">
                                 <TextBlock Text="{x:Bind DayNo}" FontSize="25"/>
                                 <TextBlock Text="{x:Bind NumberOfEvents}"/>
                             </StackPanel>
                         </DataTemplate>
-                    </ListBox.ItemTemplate>
+                    </ListView.ItemTemplate>
                     
-                </ListBox>
+                </ListView>
          </StackPanel>
         </StackPanel>
 
