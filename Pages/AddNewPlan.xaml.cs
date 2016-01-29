@@ -79,7 +79,7 @@ namespace TripPlanner.Pages
                     planBudget.Text = "0";
                 }
                 
-                Plans plan = new Plans(planStartDate.Date.DateTime, planStartDate.Date.DateTime,
+                Plans plan = new Plans(planStartDate.Date.DateTime, planEndDate.Date.DateTime,
                     planLocation.Text, Convert.ToDouble(planBudget.Text));
 
                 Sqlite sqlData = new Sqlite();

@@ -78,5 +78,11 @@ namespace TripPlanner
             deletePlan.Visibility = Visibility.Collapsed;
             cancelPlan.Visibility = Visibility.Collapsed;
         }
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var selectedPlan = (Plans)e.ClickedItem;
+            Frame.Navigate(typeof(PlanDetails), selectedPlan);
+        }
     }
 }

@@ -21,16 +21,16 @@
             </StackPanel>
         </RelativePanel>
         <StackPanel Grid.Row="1">
-            <ListBox x:ConnectionId='6'                                >
-                <ListBox.ItemTemplate>
+            <ListView x:ConnectionId='6'                                                                IsItemClickEnabled="True">
+                <ListView.ItemTemplate>
                     <DataTemplate                        >
                         <StackPanel x:ConnectionId='7'>
                             <TextBlock x:ConnectionId='8'                          />
                             <TextBlock x:ConnectionId='9'                         />
                         </StackPanel>
                     </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+                </ListView.ItemTemplate>
+            </ListView>
 
         </StackPanel>
                     

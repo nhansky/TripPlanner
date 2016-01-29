@@ -27,7 +27,6 @@ namespace TripPlanner.Pages
     {
 
         public ObservableCollection<Days> DaysList;
-        private Plans SelectedPlan;
         public PlanDetails()
         {
             this.InitializeComponent();
@@ -37,7 +36,9 @@ namespace TripPlanner.Pages
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             var plan = (Plans)e.Parameter;
-            startDate.Text = "From " + plan.StartDate.Date.ToString("d", DateTimeFormatInfo.InvariantInfo) + " To " + plan.EndDate.Date.ToString("d", DateTimeFormatInfo.InvariantInfo);
+            
+            //startDate.Text = "From " + plan.StartDate.Date.ToString("d", DateTimeFormatInfo.InvariantInfo) + " To " + plan.EndDate.Date.ToString("d", DateTimeFormatInfo.InvariantInfo);
+            startDate.Text = "From " + plan.StartDate.ToString("dd/MM/yyyy") + " To " + plan.EndDate.ToString("dd/MM/yyyy");
             location.Text = "in " + plan.Location;
             maxDay.Text = plan.MaxDay.ToString();
             if (plan.MaxDay == 0)

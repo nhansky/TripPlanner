@@ -45,7 +45,9 @@ namespace TripPlanner.Pages
 
         private void cancelNewActivity_Click(object sender, RoutedEventArgs e)
         {
-
+            //temporary back to home
+            Frame.Navigate(typeof(MainPage));
+            
         }
     }
 }
